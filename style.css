@@ -1,10 +1,123 @@
-body{font-family:Arial,sans-serif;background:#111827;color:#fff;margin:0}
-.container{max-width:700px;margin:40px auto;background:#1f2937;padding:30px;border-radius:12px}
-h1{color:#7c5cff}
-.lead{color:#ddd}
-.notice{background:#312e81;padding:15px;border-radius:8px;margin:20px 0}
-label{display:block;margin-top:15px}
-input,select,textarea{width:100%;padding:10px;margin-top:6px;border-radius:6px;border:none}
-button{margin-top:20px;width:100%;padding:14px;background:#7c5cff;color:#fff;border:none;border-radius:8px;font-size:16px;cursor:pointer}
-button:hover{background:#6848ff}
-#msg{margin-top:20px;color:#7CFC98;font-weight:bold}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#1d1f21;
+    color:white;
+
+    /* Você poderá trocar essa imagem depois */
+    background-image:url("https://images.unsplash.com/photo-1511512578047-dfb367046420?q=80&w=1920&auto=format&fit=crop");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+.container{
+    width:90%;
+    max-width:800px;
+
+    margin:40px auto;
+
+    background:rgba(20,20,20,.80);
+
+    backdrop-filter:blur(6px);
+
+    border-radius:16px;
+
+    padding:35px;
+
+    border:1px solid rgba(255,255,255,.15);
+
+    box-shadow:0 0 25px rgba(0,0,0,.45);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+    color:#f0c75e;
+}
+
+h2{
+    color:#f0c75e;
+    margin-top:15px;
+}
+
+.notice{
+    background:rgba(255,255,255,.05);
+    padding:20px;
+    border-radius:12px;
+    margin-bottom:25px;
+}
+
+.notice p{
+    margin-bottom:14px;
+    line-height:1.6;
+}
+
+label{
+    display:block;
+    margin-top:18px;
+    margin-bottom:8px;
+}
+
+input,
+select,
+textarea{
+
+    width:100%;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#2b2d30;
+
+    color:white;
+
+    font-size:15px;
+
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+
+    outline:2px solid #f0c75e;
+
+}
+
+button{
+
+    width:100%;
+
+    margin-top:25px;
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:#caa03d;
+
+    color:#111;
+
+    font-size:17px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+}
+
+button:hover{
+
+    background:#e3bb5b;
+
+}
